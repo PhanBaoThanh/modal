@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('./img/hero.jpeg') center/cover no-repeat;
+
+  .box{
+    padding: 64px;
+    background-color: #fff;
+    border-radius: 8px;
+    .box__header{
+      color: hsl(209, 61%, 16%);
+      text-align: center;
+      font-size: 64px;
+      letter-spacing: 3px;
+      margin-bottom: 16px;
+    }
+
+    .box__btn{
+      display: flex;
+      justify-content: center;
+      .box__btn__item{
+        padding: 8px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        border: 2px solid #49a6e9;
+        background-color: #49a6e9;
+        transition: .2s;
+        &:hover{
+          color: #49a6e9;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  .modal{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    inset: 0 0 0 0;
+    background-color: rgba(73, 166, 233, 0.5);
+    z-index: 10;
+
+    .modal__box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      border-radius: 8px;
+      text-align: center;
+      width: 50vw;
+      height: 30vh;
+      position: relative;
+      .modal__box__closeBtn{
+        color: red;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 26px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+
+      .modal__box__header{
+
+      }
+    }
+  }
+}
