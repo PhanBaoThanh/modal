@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/modal/static/css/main.b48556f0.css",
+    "main.js": "/modal/static/js/main.0e967efe.js",
+    "static/media/hero.jpeg": "/modal/static/media/hero.70c0ff791ab2b3aedfe3.jpeg",
+    "index.html": "/modal/index.html",
+    "main.b48556f0.css.map": "/modal/static/css/main.b48556f0.css.map",
+    "main.0e967efe.js.map": "/modal/static/js/main.0e967efe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b48556f0.css",
+    "static/js/main.0e967efe.js"
+  ]
+}
